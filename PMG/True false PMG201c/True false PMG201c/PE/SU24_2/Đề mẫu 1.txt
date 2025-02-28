@@ -1,0 +1,105 @@
+Request 1: Project Name: Student Management System (SMS) for FU
+Detailed Description:
+What: What: The extend includes creating a Student Management System (SMS) to automate the administration of student information, scholastic records, and authoritative tasks. The system will provide features such as student registration, attendance tracking, grade management, and communication between understudies and staff.
+Why: The project aims to upgrade the effectiveness of regulatory forms, diminish manual blunders, and make strides get to data for understudies, workforce, and authoritative staff. This system will offer assistance streamline student-related errands, guaranteeing that the university's operations are more productive and dependable.
+How: The system will be developed using agile methodologies, joining input from partners all through the development process. The development will involve requirement gathering, system design, coding, testing, and deployment. Technologies such as a web-based front-end (e.g., Angular), back-end (e.g., .NET Core), and a relational database (e.g., SQL Server) will be utilized.
+Key Characteristics:
+Purpose/Objectives:
+Automate student record administration.
+Improve communication between understudies, workforce, and regulatory staff.
+Improve the accuracy and accessibility of student information.
+Time allotment: 6 months
+Customer/Sponsor: FU’s IT Department and the Registrar’s Office.
+
+Project Milestones:
+Milestone 1: Requirements Gathering (4 weeks)
+Milestone 2: System Design (4 weeks)
+Milestone 3: Development Completion (8 weeks)
+Milestone 4: Testing and Quality Assurance (4 weeks)
+Milestone 5: System Deployment (4 weeks)
+
+Success Criteria:
+The framework is completely useful and meets all indicated necessities.
+User acceptance from workforce, authoritative staff, and understudies.
+System deployed on time and inside budget.
+Reduction in preparing time for student-related authoritative assignments by 30%.
+
+Project Constraints:
+Cost: Restricted to $50,000.
+Resources: 1 project manager, 4 developers, 2 testers, 1 database administrator, 1 UI/UX designer.
+Technology Constraints: Must be congruous with existing college IT infrastructure.
+
+Request 2:
+Work Package/Activity	Project Manager	Developers	Testers	UI/UX Designer	Database Admin	IT Support
+1. Requirement Gathering	A	    R	           I	     C	               I	     I
+2. System Design	        A	    R	           C	     R	               C	     I
+3. Database Design	        I	    C	           I	     C	               R	     I
+4. Front-End Development	I	    R	           I	     R	               I	     I
+5. Back-End Development	        I	    R	           I	     I	               C	     I
+6. Integration Testing	        I	    C	           R	     I	               I	     I
+7. User Acceptance Testing	C	    I	           R	     C	               I	     I
+8. Deployment	                A	    R	           I	     I	               R	     R
+9. User Training	        R	    I	           I	     I	               I	     R
+10. Post-Deployment Support	A	    I	           I	     I	               C	     R
+R = Responsible
+A = Accountable
+C = Consult
+I = Inform
+
+Request 3: 
+Purpose: Guarantee code quality and adherence to coding guidelines.
+When: Amid improvement, some time recently the code is consolidated into the most department.
+How: Peer reviews by other designers employing a checklist to recognize issues.
+Unit Testing (QC):
+Purpose: Approve that person components work as anticipated.
+When: After each module is created.
+How: Engineers compose and execute unit tests for their code.
+Integration Testing (QC):
+Purpose: Guarantee that diverse modules of the framework work together accurately.
+When: After all modules have been created.
+How: Analyzers execute test cases that center on the interaction between modules.
+User Acceptance Testing (QC):
+Purpose: Verify that the system meets the needs of the end-users.
+When: After system testing, before deployment.
+How: End-users (understudies and workforce) test the framework in a controlled environment.
+Prepare Reviews (QA):
+Purpose: Ensure that the project follows established processes and standards.
+When: Occasionally all through the extend lifecycle.
+How: The project manager reviews project processes and documentation.
+
+Request 4: Project Phases/Iterations and Deliverables
+Phase 1: Initiation
+Deliverable 1: Project Charter
+Content: Record laying out the project's destinations, partners, scope, and imperatives.
+Deliverable 2: Initial Project Plan
+Content: High-level plan detailing the project timeline, resources, and milestones.
+
+Phase 2: Planning
+Deliverable 1: Detailed Requirements Specification
+Content: Document detailing all functional and non-functional requirements.
+Deliverable 2: System Design Document
+Content: Blueprint of the system architecture, database design, and user interface design.
+
+Phase 3: Execution
+Deliverable 1: Developed System Modules
+Content: Person components of the framework, counting the front-end, back-end, and database.
+Deliverable 2: Integrated System
+Content: Completely coordinates framework with all modules working together.
+
+Phase 4: Closure
+Deliverable 1: User Training Materials
+Content: Documentation and instructional exercises to assist clients explore and utilize the framework.
+Deliverable 2: Project Closure Report
+Content: Final report summarizing the project, lessons learned, and post-deployment support plan.
+
+Request 5: Main Cost Items and Estimations
+Development Effort: Time spent by developers to write and test code.
+Estimation: 400 man-days.
+Testing Effort: Time spent by testers to perform QA/QC activities.
+Estimation: 150 man-days.
+UI/UX Design: Time spent by designers to create and refine the user interface.
+Estimation: 80 man-days.
+Database Design and Management: Time spent by the database administrator to design, implement, and manage the database.
+Estimation: 70 man-days.
+Project Management: Time spent by the project manager to oversee and coordinate the project.
+Estimation: 50 man-days.

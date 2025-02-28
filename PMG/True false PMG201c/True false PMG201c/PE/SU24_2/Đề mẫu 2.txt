@@ -1,0 +1,100 @@
+Project Name: FU Connection
+
+Request 1: 
+Detailed Project Description
+What: FU Connection is a web-based platform pointed at upgrading communication and collaboration inside the FPT University.
+Why: Currently, FU needs a centralized platform for understudies, workforce, and staff to put, through share data, and collaborate on scholastic and extracurricular ventures. FU Connection looks for to fill this crevice, cultivating a more dynamic and locked in campus environment.
+How: The project will involve:
+
+Requirement Gathering: Understanding user needs and expectations through surveys, interviews, and center groups.
+Design and Development: Building the web platform using suitable technologies (e.g., React, Node.js, MongoDB).
+Testing: Thorough testing to guarantee usefulness, ease of use, and security.
+Deployment: Propelling the stage and giving user preparing and support.
+
+Key Characteristics:
+Purpose: To create a centralized stage for communication, collaboration, and data sharing inside the FU.
+Timeframe: Estimated project duration is 6 months.
+Customer: The project is supported by the FU Student Committee and supported by the IT Office.
+
+Project Milestones:
+Completion of requirement gathering and documentation.
+Finalization of system plan and architecture.
+Advancement of center functionalities.
+Successful completion of testing stages.
+Deployment and user training.
+
+Success Criteria:
+High user selection rate.
+Positive user feedback and fulfillment..
+Increased engagement and collaboration within the FU community.
+
+Project Constraints:
+Budget: Constrained budget distributed for advancement and arrangement.
+Resources: Accessibility of talented engineers and IT faculty.
+Technical: Guaranteeing compatibility with existing FU systems and foundation.
+
+Request 2:
+Work Package/Activity	Project Manager (PM) Business Analyst (BA) System Architect (SA) Developers (Dev) Testers (Test)
+1. Gather and document requirements	A	R	C	I	I
+2. Design system architecture	I	C	R	C	I
+3. Develop user interface	I	C	C	R	I
+4. Implement backend functionalities	I	C	C	R	I
+5. Conduct unit testing	I	I	I	R	C
+6. Perform integration testing	I	I	I	C	R
+7. Execute system testing	I	I	C	C	R
+8. Prepare user documentation	I	R	C	I	I
+9. Deploy the platform	A	I	R	C	C
+10. Conduct user training	A	R	C	I	I
+R: Responsible
+A: Accountable
+C: Consulted
+I: Informed
+
+Request 3:
+Requirement Reviews(QA):
+Purpose: Ensure prerequisites are clear, total, and testable.
+When: During requirement gathering phase.	
+How: reviews.
+Design Reviews (QA): 
+Purpose: Verify design meets requirements and standards.	
+When: After design phase.	
+How: Peer reviews, inspections.
+Code Reviews (QC):
+Purpose: Recognize surrenders and guarantee code quality.	
+When: During development.	
+How: static analysis tools.
+Test Case Development (QA):
+Purpose: Make test cases to cover all requirements.
+When: During testing planning.	
+How: Based on requirements and design.
+User Acceptance Testing (QC):
+Purpose: Approve the system from the user's perspective.	
+When: Before deployment.	
+How: Include end-users in testing.
+
+Request 4:
+1. Inception
+Requirement Document: Details the functional and non-functional requirements of the platform.
+System Design Document: Outlines the system architecture, components, and interfaces.
+2. Development
+Core Functionalities: A basic version of the platform with key features implemented.
+Unit Test Reports: Documentation of unit test results and identified defects.
+3. Testing
+Integration Test Reports: Results of testing the interaction between different components.
+System Test Reports: Overall system testing results against requirements.
+4. Deployment
+Deployed FU Connection platform: The final, live platform accessible to users.
+User Manuals and Documentation: Guides for using the platform effectively.
+
+Request 5:
+1. Development: Coding, testing, and debugging
+Estimation (Man-hours): 1200
+2. Design: UI/UX design, system architecture
+Estimation (Man-hours): 300
+3. Project Management: Planning, coordination, communication
+Estimation (Man-hours): 400
+4. Testing: Test case development, execution, reporting
+Estimation (Man-hours): 500
+5. Deployment and Training: Server setup, configuration, user training
+Estimation (Man-hours): 200
+Total Estimated Exertion: 2600 Man-hours

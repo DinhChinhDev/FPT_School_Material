@@ -1,0 +1,85 @@
+BÀI 2:
+Request 1:
+- Project Title: Community Health Awareness Program
+- Project Purpose:
+Objective: Develop and implement a community health awareness program to educate residents about preventive health measures, healthy lifestyle choices, and available health resources.
+Purpose: Improve community health outcomes by increasing knowledge about disease prevention, promoting healthy habits, and connecting individuals with local health services. The program aims to foster a healthier community and reduce the prevalence of common health issues.
+- Timeframe: 8 months, from February 2025 to September 2025.
+- Customer/Sponsor:
+Primary Customer/Sponsor: Local Health Department.
+Potential Stakeholders: Community organizations, schools, healthcare providers, and local businesses.
+- Project Milestones:
+Needs Assessment and Planning: February - March 2025.
+Program Development: April - May 2025.
+Outreach and Promotion: June 2025.
+Implementation: July - August 2025.
+Evaluation and Reporting: September 2025.
+- Success Criteria:
+Successful execution of the program with active community participation.
+Positive feedback from at least 80% of participants in post-program surveys.
+Increased awareness of preventive health measures, as evidenced by improved health-related behavior in the community.
+Successful collaboration with at least 5 local health organizations or businesses.
+- Other Project Constraints:
+Cost: Budget set at $40,000.
+Resources: The project team includes 3 health educators, 2 outreach coordinators, 1 project manager, 1 communications specialist, and 1 evaluator.
+
+Request 2:
+- Project Manager (PM):
+Oversee the project from planning through to evaluation, ensuring it meets objectives and stays within budget.
+Coordinate communication between the project team, stakeholders, and community members.
+- Health Educators:
+Develop educational content on preventive health measures and healthy lifestyles.
+Conduct workshops, seminars, and community events to deliver the program’s message.
+- Outreach Coordinators:
+Plan and execute promotional activities to engage the community and increase program visibility.
+Collaborate with local organizations and businesses to support program outreach.
+- Communications Specialist:
+Create and manage promotional materials, including flyers, social media posts, and press releases.
+Ensure consistent messaging across all communication channels.
+- Evaluator:
+Assess the effectiveness of the program through surveys, feedback forms, and performance metrics.
+Prepare reports on program outcomes and areas for improvement.
+
+Request 3:
+- In-Scope Items:
+Educational Workshops: Conduct workshops on health topics such as nutrition, exercise, and disease prevention.
+Outreach Materials: Creation of flyers, brochures, and online content to promote the program.
+Community Events: Organize health fairs, screenings, and informational sessions.
+Collaboration: Partner with local health organizations and businesses to support the program.
+Evaluation: Collect and analyze feedback to assess program impact.
+- Out-of-Scope Items:
+Medical Services: Direct medical services or clinical treatments are not included.
+Long-Term Health Programs: Development of ongoing health programs beyond the initial campaign.
+International Outreach: Program limited to the local community only.
+Advanced Health Analytics: No in-depth health data analysis or reporting beyond basic feedback.
+Customized Health Plans: No personalized health planning or one-on-one consultations.
+
+Request 4:
+- Activities:
+Needs Assessment and Planning (A).
+Program Development (B).
+Outreach and Promotion (C).
+Implementation (D).
+Evaluation and Reporting (E).
+- Relationships:
+A → B (FS): Program development starts after the needs assessment and planning.
+B → C (FS): Outreach and promotion begin after the program is developed.
+C → D (FS): Implementation follows the completion of outreach and promotional activities.
+D → E (FS): Evaluation and reporting occur after the program implementation.
+
+Request 5:
+- Training Costs:
+Description: Training for health educators and outreach coordinators on program delivery and community engagement.
+Estimation: 20 man-hours.
+- Testing Costs:
+Description: Testing of outreach materials and program content for clarity and effectiveness.
+Estimation: 15 man-hours.
+- Rework Costs:
+Description: Time spent revising materials and strategies based on feedback and initial implementation results.
+Estimation: 25 man-hours.
+- Audit Costs:
+Description: External review of program effectiveness and adherence to health communication standards.
+Estimation: 20 man-hours.
+- Documentation Costs:
+Description: Creation of reports, manuals, and guides for future reference and program continuity.
+Estimation: 30 man-hours.
