@@ -1,0 +1,88 @@
+BÀI 3:
+Request 1: Project Details
+Project Title: Web-Based Ride Sharing Application
+Purpose/Objectives: The purpose of this project is to develop a web-based platform that facilitates ride-sharing and on-demand taxi services. This application aims to provide an efficient, cost-effective, and environmentally friendly transportation alternative by reducing the number of vehicles on the road, thus addressing traffic congestion and pollution.
+Project Timeframe: The project is scheduled for a duration of 10 months, from February 2024 to November 2024.
+Customer/Sponsor: The project is sponsored by FPT Transportation Solutions, seeking to diversify into the growing market of digital transportation services.
+Project Milestones:
+Market Research (February - March 2024): Identify target demographics and user requirements.
+System Design (April 2024): Develop the application architecture and user interface design.
+Development Phase (May - July 2024): Code the backend and frontend components.
+Pilot Testing (August 2024): Run a pilot test in a controlled environment.
+Launch Preparation (September 2024): Prepare for launch, including marketing and operational setup.
+Official Launch (October 2024): Go live with full marketing support.
+Post-Launch Monitoring and Optimization (November 2024): Evaluate system performance and user feedback for future improvements.
+Success Criteria:
+High user adoption rates within the first three months.
+Positive user feedback regarding ease of use and reliability.
+Reduction in average commute times and carbon emissions in the pilot area.
+Other Project Constraints:
+Cost: Budget is set at $150,000.
+Resources: Team comprises 8 software developers, 3 UX/UI designers, 2 project managers, and 1 data analyst.
+Technology: Must be scalable to handle high traffic volumes and integrate with various payment gateways.
+Request 2: Team Roles and Responsibilities
+Project Manager:
+Coordinates project activities and ensures adherence to budget and timeline.
+Manages stakeholder communications and project documentation.
+Lead Developer:
+Oversees the software development process, ensuring technical milestones are achieved.
+Implements core functionality including the matching algorithm and payment integration.
+UI/UX Designer:
+Designs an intuitive and accessible interface for both mobile and desktop platforms.
+Conducts user experience testing and refines designs based on user feedback.
+Data Analyst:
+Analyzes user behavior and traffic data to improve service efficiency.
+Supports marketing by providing insights from data to target key user groups.
+Quality Assurance Specialist:
+Tests the application across different devices and browsers for bugs and usability issues.
+Ensures the application meets all operational and security standards before launch.
+Request 3: Scope Classification
+In-Scope Items:
+Ride Matching System: Algorithm to match riders with drivers based on destination and route.
+Payment Integration: Secure processing of payments within the app.
+User Profiles: Creation and management of user profiles for drivers and riders.
+Rating System: Users can rate each other to ensure quality and safety.
+Real-Time Tracking: GPS-based tracking of rides in real-time.
+Out-of-Scope Items:
+Delivery Services: Transport of goods or courier services.
+International Expansion: Services outside the initial launch country.
+Cash Payments: Handling or processing of cash transactions.
+In-App Advertising: Displaying third-party advertisements.
+Roadside Assistance: Providing services like towing or flat tire assistance.
+Request 4: Activities and Relationships
+Market Research (A)
+System Design (B)
+Development of Backend (C)
+Development of Frontend (D)
+Integration of Payment Systems (E)
+User Testing (F)
+Pilot Launch (G)
+Marketing Rollout (H)
+Official Launch (I)
+Post-Launch Analysis (J)
+Relationships:
+A → B (FS): System design starts after market research is complete.
+B → C, D (FS): Backend and frontend development start after system design.
+C → E (FS): Payment integration begins after backend development.
+D → F (SS): User testing begins in parallel with frontend development.
+F → G (FS): Pilot launch follows successful user testing.
+G → H (FS): Marketing rollout begins after pilot launch.
+I → J (SS): Post-launch analysis starts in parallel with the official launch.
+Request 5: Quality Cost Items
+Testing and Quality Assurance:
+Description: Costs related to comprehensive testing of the application.
+Estimation: 100 man-hours.
+Security Measures:
+Description: Implementation of advanced security protocols to protect user data.
+Estimation: 60 man-hours.
+User Training:
+Description: Training for users on how to use the application effectively.
+Estimation: 30 man-hours.
+Compliance and Regulatory Review:
+Description: Ensuring the app complies with local transportation laws.
+Estimation: 40 man-hours.
+Performance Monitoring:
+Description: Ongoing monitoring of app performance post-launch to identify any potential issues.
+Estimation: 50 man-hours monthly for the first three months.
+
+

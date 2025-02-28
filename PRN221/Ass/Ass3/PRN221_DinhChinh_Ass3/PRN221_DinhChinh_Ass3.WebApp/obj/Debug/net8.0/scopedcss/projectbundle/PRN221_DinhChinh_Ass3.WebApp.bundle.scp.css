@@ -1,0 +1,94 @@
+/* _content/PRN221_DinhChinh_Ass3.WebApp/Pages/Shared/_Layout.cshtml.rz.scp.css */
+
+:root[b-okn8fay9bz] {
+    --primary-color: #D35400; /* cam đất chủ đạo */
+    --secondary-color: #f0a07e; /* cam nhạt */
+    --text-color: #5A5A5A;
+    --background-color: #FAFAF9;
+    --button-hover-color: #A64600; /* màu hover */
+}
+
+/* Navbar brand */
+a.navbar-brand[b-okn8fay9bz] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: var(--primary-color);
+}
+
+/* Link style */
+a[b-okn8fay9bz] {
+    color: var(--primary-color);
+}
+
+    a:hover[b-okn8fay9bz] {
+        color: var(--button-hover-color);
+    }
+
+/* Button primary styling */
+.btn-primary[b-okn8fay9bz] {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--button-hover-color);
+}
+
+    .btn-primary:hover[b-okn8fay9bz] {
+        background-color: var(--button-hover-color);
+    }
+
+/* Active nav pills styling */
+.nav-pills .nav-link.active[b-okn8fay9bz],
+.nav-pills .show > .nav-link[b-okn8fay9bz] {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--button-hover-color);
+}
+
+/* Border styles */
+.border-top[b-okn8fay9bz] {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-okn8fay9bz] {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Box shadow */
+.box-shadow[b-okn8fay9bz] {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1); /* Slightly stronger shadow */
+}
+
+/* Accept policy button */
+button.accept-policy[b-okn8fay9bz] {
+    font-size: 1rem;
+    line-height: inherit;
+    color: var(--primary-color);
+}
+
+/* Footer styling */
+.footer[b-okn8fay9bz] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 60px;
+}
+
+/* Dropdown box size */
+.select-dropdown[b-okn8fay9bz],
+.dropdown-menu[b-okn8fay9bz] {
+    width: 100%; /* Đảm bảo dropdown có kích thước bằng hộp xổ */
+    min-width: auto;
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
+}
+
+/* Dropdown item styling */
+.dropdown-item[b-okn8fay9bz] {
+    color: var(--primary-color);
+}
+
+    .dropdown-item:hover[b-okn8fay9bz] {
+        background-color: var(--secondary-color);
+        color: #fff;
+    }

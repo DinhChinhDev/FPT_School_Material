@@ -1,0 +1,108 @@
+Request 1 :
+Project title : Student Management System (SMS)
+Purpose/Objectives:
+-Purpose : The main purpose of the SMS is automate the management of the student information, academic records. The system aims to improve the efficiency and accuracy of student data handling, enabling educators, administrators, and parents to access essential information quickly . 
+Objectives
+Giving the administrators the tool the need to control user managements, manage the subjects information.
+Giving the instructor can be view all list of students , access assigned class.
+Giving the students the ability register, access the class they are assigned, take part in the online testing, submit the homework, project, student can be reports the teacher they are learn.
+
+Timeframe: All task is finished from 4 month.
+Customer/Sponsor:
+The primary customer and sponsor of the project is FPT University.
+Project Milestones:
+1. Requirements Gathering and Analysis (Week 1-3)
+2. System Design  (Week 4-5)
+3. Development and UT Testing (Week 6-10)
+4. Testing (IT, ST, UAT)  (Week 11-13)
+5. Deployment   (Week 14-16)
+Success Criteria:
+Instructors can be view all list student in the class easily, they can access assigned class
+Students can register easily, they can access the class they are assigned, student can doing the online testing, submit they homework and reports the teacher after the studying in  the class.
+Other Project Constraints:
+Cost: Budget set at $10,000.
+Resources: The project team have 3 developers, 1 testers, 2 designers, 2 BA and project managers who must collaborate efficiently to meet project deadlines.
+Technology Stack: Backend: .NET. Front end : ReactJS. Deployment Environment : AWS Cloud 
+
+Request 2:
+Work Package/Activity	Project Manager (PM) Business Analyst (BA) System Architect (SA) Developers (Dev) Testers (Test)
+1. Gather and document requirements	A	R	C	I	I
+2. Design system architecture	I	C	R	C	I
+3. Develop user interface	I	C	C	R	I
+4. Implement backend functionalities	I	C	C	R	I
+5. unit testing                 I	I	I	R	C
+6. User Acceptance Testing	C	I	I	I	R
+7. Deployment	A	I	I	R	I
+8. User Training	R	A	I	I	I
+9. Post-Deployment Support	A	I	A	C	I
+R = Responsible
+A = Accountable
+C = Consult
+I = Inform
+
+Request 3:
+1. Functional Testing (QC)
+Purpose: Confirm that the system functions according to the required necessities.
+When: After development of each module and some time recently integration testing.
+How: Testers create and execute test cases for each functional requirement, guaranteeing that the framework carries on as anticipated.
+2. Usability Testing (QC)
+Purpose: Guarantee that the system is user-friendly and meets wants of the end-users in terms of route, format, and plan.
+When: After the UI/UX plan is executed and before system testing.
+How: End-users are inquired to perform particular assignments inside the framework, and their input is assembled to recognize zones for enhancement.
+3. Setup Administration Reviews
+Purpose: Ensure that all extend artifacts (code, records, etc.) are appropriately versioned, put away, and overseen.
+When: Throughout the project, especially during and after major updates.
+How: The project manager or a designated team member conducts reviews to guarantee compliance with setup administration strategies.
+4. Regression Testing (QC)
+Purpose: Ensure that new changes or additions do not negatively affect existing functionalities.
+When: After any significant change or addition to the system.
+How: Testers re-run previous test cases to verify that the system still performs as expected after modifications.
+5. Performance Testing (QC)
+Purpose: Confirm that the system can handle expected loads without performance degradation.
+When: Before deployment, after the system is fully integrated.
+How: The system is subjected to recreated loads (e.g., different clients getting to the framework at the same time) to degree reaction times, throughput, and soundness.
+
+Request 4:
+Phase 1: Initiation
+Deliverable 1: Project Charter
+Content: Record laying out the project's goals, accomplices, scope, and objectives.
+Deliverable 2: Initial Project Plan
+Content: High-level plan arrange enumerating the project timeline, assets, and milestones.
+
+Phase 2: Planning
+Deliverable 1: Detailed Requirements Specification
+Content:  Archive specifying all functional and non-functional necessities.
+Deliverable 2: System Design Document
+Content: Outline of the framework design, database plan, and client interface plan.
+
+Phase 3: Execution
+Deliverable 1: Developed System Modules
+Content: Individual components of the system, checking the front-end, back-end, and database.
+Deliverable 2: Integrated System
+Content: Totally facilitates system with all modules working together.
+
+Phase 4: Closure
+Deliverable 1: User Training Materials
+Content: Documentation and directions works out to help clients investigate and utilize the system.
+Deliverable 2: Project Closure Report
+Content: Last report summarizing the extend, lessons learned, and post-deployment back arrange.
+
+Request 5: (20%): cung cấp ít nhất 5 hạng mục chi phí chất lượng (chi phí phòng ngừa, thẩm định hoặc hư hỏng bên ngoài), mô tả và dự toán cho từng hạng mục chi phí. Việc ước tính phải là nỗ lực (ngày công, giờ công) cho chi phí lao động.
+
+
+1. Free Room Cost (Prevention Cost) Category 1: Development Team Training Description: Provide training courses on software development processes, coding standards, and project management tools to ensure product quality.
+Estimate: 40 man hours (5 man days) Category 2: Architectural System Design Description: Invest time in detailed architectural system design work, ensuring system stability and scalability before development.
+Estimate: 80 man hours (10 man days) 2. Appraisal Cost (Appraisal Cost) Category 3: Unit Testing (Unit Testing) Description: Perform unit testing to ensure that each sub-module of the system functions as expected before merging.
+Estimate: 120 man-hours (15 man-days) Category 4: Integrated System Testing (System Integration Testing) Description: Perform proper testing to ensure that different modules work together and do not cause errors.
+Estimate: 80 man-hours (10 man-days) 3. External Failure Costs (External Failure Costs) Category 5: Post-Development Support (Post-Implementation Support) Description: Estimate the cost of dealing with errors or problems that arise after the system is developed for end users.
+Estimate: 40 man-hours (5 man-days) Total Quality Cost: Total Man-hours: 360 man-hours (45 man-days)
+
+
+
+
+
+
+
+
+
+ 

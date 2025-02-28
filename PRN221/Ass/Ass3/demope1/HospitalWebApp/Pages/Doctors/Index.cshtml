@@ -1,0 +1,53 @@
+﻿@page
+@model HospitalWebApp.Pages.Doctors.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<!-- Search Form -->
+<form method="get">
+    <input type="text" name="SearchString" placeholder="Search by name..." value="@Model.SearchString" />
+    <button type="submit">Search</button>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Doctor[0].DoctorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Doctor[0].PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Doctor[0].Specialization)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Doctor) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DoctorName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Specialization)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DoctorId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DoctorId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DoctorId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

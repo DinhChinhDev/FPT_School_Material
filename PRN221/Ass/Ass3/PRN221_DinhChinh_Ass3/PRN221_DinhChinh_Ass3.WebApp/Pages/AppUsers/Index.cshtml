@@ -1,0 +1,48 @@
+﻿@page
+@model PRN221_DinhChinh_Ass3.WebApp.Pages.AppUsers.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+<link rel="stylesheet" href="~/css/StyleSheet1.css">
+<h1>Index</h1>
+
+<p>
+    <a class="btn-action" asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AppUser[0].UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppUser[0].Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppUser[0].IsShipper)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.AppUser) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsShipper)
+            </td>
+            <td>
+                    <a class="btn-action" asp-page="./Edit" asp-route-id="@item.AppUserId">Edit</a> |
+                    <a class="btn-action" asp-page="./Details" asp-route-id="@item.AppUserId">Details</a> |
+                    <a class="btn-action" asp-page="./Delete" asp-route-id="@item.AppUserId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

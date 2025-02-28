@@ -1,0 +1,15 @@
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\DataAccess\bin\Debug\net7.0\DataAccess.deps.json
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\DataAccess\bin\Debug\net7.0\DataAccess.dll
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\DataAccess\bin\Debug\net7.0\DataAccess.pdb
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\DataAccess\bin\Debug\net7.0\BusinessObject.dll
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\DataAccess\bin\Debug\net7.0\BusinessObject.pdb
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\DataAccess\obj\Debug\net7.0\DataAccess.csproj.AssemblyReference.cache
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\DataAccess\obj\Debug\net7.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfoInputs.cache
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfo.cs
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CopyComplete
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\DataAccess\obj\Debug\net7.0\DataAccess.dll
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\DataAccess\obj\Debug\net7.0\refint\DataAccess.dll
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\DataAccess\obj\Debug\net7.0\DataAccess.pdb
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll

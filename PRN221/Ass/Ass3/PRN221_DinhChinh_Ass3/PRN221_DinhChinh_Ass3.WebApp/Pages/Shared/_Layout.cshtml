@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PRN221_DinhChinh_Ass3.WebApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PRN221_DinhChinh_Ass3.WebApp.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        /* Global color variables */
+        :root {
+            --primary-color: #D35400; /* cam đất chủ đạo */
+            --secondary-color: #f0a07e; /* cam nhạt */
+            --text-color: #5A5A5A;
+            --background-color: #FAFAF9;
+            --button-hover-color: #A64600; /* màu hover */
+        }
+
+        /* Navbar brand */
+        a.navbar-brand {
+            white-space: normal;
+            text-align: center;
+            word-break: break-all;
+            color: var(--primary-color);
+        }
+
+        /* Link style */
+        a {
+            color: var(--primary-color);
+        }
+
+            a:hover {
+                color: var(--button-hover-color);
+            }
+
+        /* Button primary styling */
+        .btn-primary {
+            color: #fff;
+            background-color: var(--primary-color);
+            border-color: var(--button-hover-color);
+        }
+
+            .btn-primary:hover {
+                background-color: var(--button-hover-color);
+            }
+
+        /* Active nav pills styling */
+        .nav-pills .nav-link.active,
+        .nav-pills .show > .nav-link {
+            color: #fff;
+            background-color: var(--primary-color);
+            border-color: var(--button-hover-color);
+        }
+
+        /* Border styles */
+        .border-top {
+            border-top: 1px solid #e5e5e5;
+        }
+
+        .border-bottom {
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        /* Box shadow */
+        .box-shadow {
+            box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1); /* Slightly stronger shadow */
+        }
+
+        /* Accept policy button */
+        button.accept-policy {
+            font-size: 1rem;
+            line-height: inherit;
+            color: var(--primary-color);
+        }
+
+        /* Footer styling */
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 60px;
+        }
+
+        /* Dropdown box size */
+        .select-dropdown,
+        .dropdown-menu {
+            width: 100%; /* Đảm bảo dropdown có kích thước bằng hộp xổ */
+            min-width: auto;
+            box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
+        }
+
+        /* Dropdown item styling */
+        .dropdown-item {
+            color: var(--primary-color);
+        }
+
+            .dropdown-item:hover {
+                background-color: var(--secondary-color);
+                color: #fff;
+            }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">
+                    <img src="https://static.vecteezy.com/system/resources/previews/018/914/684/non_2x/book-store-icon-for-your-website-mobile-presentation-and-logo-design-free-vector.jpg" width="40" height="40" ; />
+                    Bút Sờ To 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                    
+                    @if (!string.IsNullOrEmpty(Context.Session.GetString("UserRole")))
+                    {
+                        <div class="dropdown d-sm-inline-flex justify-content-between">
+                            @if (Context.Session.GetString("UserRole") == "Admin")
+                            {
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   Admin Menu
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li class="">
+                                        <a class="dropdown-item" asp-page="/Ships/Index">Ships</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="dropdown-item" asp-page="/AppUsers/Index">AppUsers</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="dropdown-item" asp-page="/Books/Index">Books</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="dropdown-item" asp-page="/Categories/Index">Categories</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="dropdown-item" onclick="return confirm('Confirm to log out?')" asp-page="/Login/Logout">Logout</a>
+                                    </li>
+                                </ul>
+                            }
+                            else
+                            {
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   User Menu
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li class="">
+                                        <a class="dropdown-item" asp-page="/Home/IndexUser">Order History</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="dropdown-item" onclick="return confirm(Confirm to log out?')" asp-page="/Login/Logout">Logout</a>
+                                    </li>
+                                </ul>
+                            }
+                            
+                        </div>
+                    }
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - PRN221_DinhChinh_Ass3.WebApp - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.11/signalr.min.js"></script>
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,16 @@
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\bin\Debug\net8.0\HospitalDataAccess.deps.json
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\bin\Debug\net8.0\HospitalDataAccess.dll
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\bin\Debug\net8.0\HospitalDataAccess.pdb
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\bin\Debug\net8.0\HospitalBusiness.dll
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\bin\Debug\net8.0\HospitalBusiness.pdb
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\obj\Debug\net8.0\HospitalDataAccess.csproj.AssemblyReference.cache
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\obj\Debug\net8.0\HospitalDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\obj\Debug\net8.0\HospitalDataAccess.AssemblyInfoInputs.cache
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\obj\Debug\net8.0\HospitalDataAccess.AssemblyInfo.cs
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\obj\Debug\net8.0\HospitalDataAccess.csproj.CoreCompileInputs.cache
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\obj\Debug\net8.0\HospitalDataAccess.csproj.CopyComplete
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\obj\Debug\net8.0\HospitalDataAccess.dll
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\obj\Debug\net8.0\refint\HospitalDataAccess.dll
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\obj\Debug\net8.0\HospitalDataAccess.pdb
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\obj\Debug\net8.0\ref\HospitalDataAccess.dll
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalDataAccess\bin\Debug\net8.0\appsettings.json

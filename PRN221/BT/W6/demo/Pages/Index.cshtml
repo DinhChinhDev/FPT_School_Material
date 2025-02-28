@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@functions {
+    [BindProperty]
+    public string Name { get; set; }
+}
+
+<div style="margin-top:30px;">
+    <form method="post">
+        <div>Name: <input name="name" /></div>
+        <div><input type="submit" /></div>
+    </form>
+
+    @if (!string.IsNullOrEmpty(Name))
+    {
+        <p>Hello @Name!</p>
+    }
+</div>

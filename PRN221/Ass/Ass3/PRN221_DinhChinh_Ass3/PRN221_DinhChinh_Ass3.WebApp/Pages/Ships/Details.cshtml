@@ -1,0 +1,49 @@
+﻿@page
+@model PRN221_DinhChinh_Ass3.WebApp.Pages.Ships.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+<link rel="stylesheet" href="~/css/StyleSheet.css">
+<h1>Details</h1>
+
+<div>
+    <h4>Ship</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ship.DateOrder)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ship.DateOrder)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ship.DateShip)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ship.DateShip)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ship.Book)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ship.Book.BookName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ship.UserOrder)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ship.UserOrder.UserName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ship.UserShip)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ship.UserShip.UserName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Ship.ShipId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

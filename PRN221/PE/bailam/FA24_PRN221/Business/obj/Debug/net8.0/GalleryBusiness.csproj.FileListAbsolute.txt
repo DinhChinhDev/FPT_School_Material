@@ -1,0 +1,15 @@
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\bin\Debug\net8.0\appsettings.json
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\bin\Debug\net8.0\GalleryBusiness.deps.json
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\bin\Debug\net8.0\GalleryBusiness.runtimeconfig.json
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\bin\Debug\net8.0\GalleryBusiness.dll
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\bin\Debug\net8.0\GalleryBusiness.pdb
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\GalleryBusiness.csproj.AssemblyReference.cache
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\GalleryBusiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\GalleryBusiness.AssemblyInfoInputs.cache
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\GalleryBusiness.AssemblyInfo.cs
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\GalleryBusiness.csproj.CoreCompileInputs.cache
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\GalleryBusiness.dll
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\refint\GalleryBusiness.dll
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\GalleryBusiness.pdb
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\GalleryBusiness.genruntimeconfig.cache
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\ref\GalleryBusiness.dll

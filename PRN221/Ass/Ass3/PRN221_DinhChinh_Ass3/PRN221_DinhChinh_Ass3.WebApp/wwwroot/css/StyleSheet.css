@@ -1,0 +1,69 @@
+﻿
+/* Custom styles for the Create page */
+:root {
+    --primary-color: #D35400; /* Màu cam đất chủ đạo */
+    --secondary-color: #f0a07e; /* Màu cam nhạt */
+    --text-color: #5A5A5A; /* Màu chữ */
+    --background-color: #FAFAF9; /* Nền sáng */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: var(--secondary-color);
+}
+
+.row {
+    justify-content: center;
+    margin-top: 20px; /* Thêm khoảng cách giữa các thành phần */
+}
+
+.form-group {
+    margin-bottom: 1.5rem; /* Thêm khoảng cách giữa các trường */
+}
+
+.form-control {
+    border: 1px solid var(--primary-color);
+    border-radius: 5px; /* Bo góc cho ô nhập */
+}
+
+    .form-control:focus {
+        border-color: var(--secondary-color); /* Đổi màu viền khi focus */
+        box-shadow: 0 0 5px var(--secondary-color); /* Thêm hiệu ứng shadow */
+    }
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px; /* Bo góc cho nút */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu khi hover */
+}
+
+    .btn-primary:hover {
+        background-color: var(--secondary-color); /* Đổi màu khi hover */
+    }
+
+.text-danger {
+    font-weight: bold;
+}
+
+a {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+    a:hover {
+        color: var(--secondary-color);
+    }
+
+

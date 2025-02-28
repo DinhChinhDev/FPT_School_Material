@@ -1,0 +1,62 @@
+﻿<Window x:Class="SalesWPFApp.UpdateMemberWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SalesWPFApp"
+        mc:Ignorable="d"
+        Title="UpdateMemberWindow" Height="450" Width="800">
+    <Grid  >
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="Auto" />
+            <RowDefinition  Height="Auto" />
+            <RowDefinition  Height="180" />
+            <RowDefinition  Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Vertical"
+                            HorizontalAlignment="Center" Width="400">
+
+            <Label Name="lbTitle" Foreground="Red" FontWeight="DemiBold" HorizontalAlignment="Center"
+                           FontSize="20" Content="Update Member"/>
+
+            <Label Name="lbMemberId" Content="Member Id"/>
+            <TextBox Name="txtMemberId" HorizontalAlignment="Stretch"
+                             Height="25" Text="{Binding Path=MemberId, Mode=OneWay}"
+                             DataContext="{Binding ElementName=lvMembers,Path=SelectedItem}"/>
+
+            <Label Name="lbEmail" Content="Email"></Label>
+            <TextBox Name="txtEmail" HorizontalAlignment="Stretch"
+                             Height="25" Text="{Binding Path=Email, Mode=OneWay}"
+                             DataContext="{Binding  ElementName=lvMembers,Path=SelectedItem}"/>
+
+            <Label Name="lbCompanyName" Content="CompanyName"></Label>
+            <TextBox Name="txtCompanyName" HorizontalAlignment="Stretch"
+                             Height="25" Text="{Binding Path=CompanyName, Mode=OneWay}"
+                             DataContext="{Binding  ElementName=lvMembers,Path=SelectedItem}"/>
+
+            <Label Name="lbCity" Content="City"></Label>
+            <TextBox Name="txtCity" HorizontalAlignment="Stretch"
+                             Height="25" Text="{Binding Path=City, Mode=OneWay}"
+                             DataContext="{Binding  ElementName=lvMembers,Path=SelectedItem}"/>
+
+            <Label Name="lbCountry" Content="Country"></Label>
+            <TextBox Name="txtCountry" HorizontalAlignment="Stretch"
+                             Height="25" Text="{Binding Path=Country, Mode=OneWay}"
+                             DataContext="{Binding  ElementName=lvMembers,Path=SelectedItem}"/>
+
+            <Label Name="lbPassword" Content="Password"></Label>
+            <TextBox Name="txtPassword" HorizontalAlignment="Stretch"
+                             Height="25" Text="{Binding Path=Password, Mode=OneWay}"
+                             DataContext="{Binding  ElementName=lvMembers,Path=SelectedItem}" IsReadOnly="True" />
+
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="btnInsert" Margin="10" Width="80" Content="Update" Click="btnUpdate_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>

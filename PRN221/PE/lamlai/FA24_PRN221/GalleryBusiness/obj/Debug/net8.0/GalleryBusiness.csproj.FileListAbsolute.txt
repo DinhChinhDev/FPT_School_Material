@@ -1,0 +1,5 @@
+D:\Sem7\PRN221\PE\lamlai\FA24_PRN221\GalleryBusiness\obj\Debug\net8.0\GalleryBusiness.csproj.AssemblyReference.cache
+D:\Sem7\PRN221\PE\lamlai\FA24_PRN221\GalleryBusiness\obj\Debug\net8.0\GalleryBusiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sem7\PRN221\PE\lamlai\FA24_PRN221\GalleryBusiness\obj\Debug\net8.0\GalleryBusiness.AssemblyInfoInputs.cache
+D:\Sem7\PRN221\PE\lamlai\FA24_PRN221\GalleryBusiness\obj\Debug\net8.0\GalleryBusiness.AssemblyInfo.cs
+D:\Sem7\PRN221\PE\lamlai\FA24_PRN221\GalleryBusiness\obj\Debug\net8.0\GalleryBusiness.csproj.CoreCompileInputs.cache

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "X9tinHkl3YndlzOEL56vVnCMuaWODKTbNbyI6C2qJheuWurd3cDWK+FjA3DxE+Xj0Svqd0xzn4PNp5z3A5/g4Q==",
+  "success": true,
+  "projectFilePath": "D:\\Sem7\\PRN221\\Ass\\179\\SaleManagement\\Ass01Solution\\DataAccess\\DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512"
+  ],
+  "logs": []
+}

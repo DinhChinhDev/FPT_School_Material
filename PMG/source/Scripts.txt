@@ -1,0 +1,10 @@
+Look at projects that you are involved with, have been involved with OR the projects going on around you. Select one project in your studying fields at FU (i.e software project for SE students), give the solutions or answers for following requests based on your understanding about the project and assumptions
+Request 1 (20%): provide project name (title) and give detailed descriptions (answer what, why, how, etc. questions) for the project in which you mention clearly its key characteristics: purpose/objectives, timeframe, customer/sponsor, project milestones, success criteria, and other project constraints (cost, resources, etc.)
+
+Request 2 (20%): create a Responsibility Assignment Matrix (RAM) in which you need to create 10 work packages or activities which can be assigned to the team and you need to come up with specific team members or roles who will complete this work (R-Responsible, A-Accountable, C-Consult, or I-Inform)
+
+Request 3 (20%): define at least 5 quality assurance (QA) or quality control (QC) activities for the project. For each activity, you need to classify it to QA or QC + clearly describe the purpose, when and how to do it.
+
+Request 4 (20%): identify at least 4 project phases/iterations and 2 main deliverables in each phase/iteration. You need to provide the description for each of the identified deliverables about its content/purpose.
+
+Request 5 (20%): provide at least 5 main cost items, description and estimation for each cost item to complete the project. The estimation should be in effort (man-days, man-hours).

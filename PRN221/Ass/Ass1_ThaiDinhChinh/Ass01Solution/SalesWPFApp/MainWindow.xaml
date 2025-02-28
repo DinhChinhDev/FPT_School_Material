@@ -1,0 +1,25 @@
+﻿<Window x:Class="SalesWPFApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SalesWPFApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="800">
+    <Grid>
+        <DockPanel>
+            <Button DockPanel.Dock="Top" Padding="20" Margin="10" x:Name="btnMembers" Click="btnMembers_Click">
+                Members Management</Button>
+            <Button  DockPanel.Dock="Top" Padding="20" Margin="10" x:Name="btnOrders" Click="btnOrders_Click">
+                Orders Management
+            </Button>
+            <Button  DockPanel.Dock="Top" Padding="20" Margin="10" x:Name="btnProducts" Click="btnProducts_Click">
+                Products Management
+            </Button>
+            <Button  DockPanel.Dock="Bottom" Padding="20" Margin="10" x:Name="btnLogout" Click="btnLogout_Click">
+                Log out 
+            </Button>
+        </DockPanel>
+
+    </Grid>
+</Window>

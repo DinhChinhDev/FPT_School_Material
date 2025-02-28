@@ -1,0 +1,8 @@
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\SalesWPFApp\obj\Debug\net7.0-windows\SalesWPFApp.csproj.AssemblyReference.cache
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\SalesWPFApp\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\SalesWPFApp\obj\Debug\net7.0-windows\WindowLogin.g.cs
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\SalesWPFApp\obj\Debug\net7.0-windows\WindowOrders.g.cs
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\SalesWPFApp\obj\Debug\net7.0-windows\App.g.cs
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\SalesWPFApp\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\SalesWPFApp\obj\Debug\net7.0-windows\SalesWPFApp_MarkupCompile.cache
+D:\Sem7\PRN221\Ass\DinhChinhFinalAss1\Ass01Solution\SalesWPFApp\obj\Debug\net7.0-windows\SalesWPFApp_MarkupCompile.lref

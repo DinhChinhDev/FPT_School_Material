@@ -1,0 +1,100 @@
+﻿@page
+@model PRN221_DinhChinh_Ass3.WebApp.Pages.Login.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+<style>
+    /* Áp dụng tone cam và vàng */
+    :root {
+        --primary-color: #D35400; /* cam đất chủ đạo */
+        --secondary-color: #f0a07e; /* cam nhạt */
+        --text-color: #5A5A5A; /* màu chữ */
+        --background-color: #FAFAF9; /* nền sáng */
+        --button-hover-color: #A64600; /* màu khi hover */
+    }
+
+    body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
+
+    .card {
+        border: none;
+        background-color: #fff;
+        border-radius: 8px;
+    }
+
+    .card-header {
+        background-color: var(--primary-color);
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .card-title {
+        margin-bottom: 0;
+        font-size: 1.5rem;
+    }
+
+    .btn-dark {
+        background-color: var(--primary-color);
+        border: none;
+        font-weight: bold;
+    }
+
+        .btn-dark:hover {
+            background-color: var(--button-hover-color);
+        }
+
+    .form-control {
+        border-color: var(--primary-color);
+    }
+
+    .form-label {
+        font-weight: bold;
+        color: var(--primary-color);
+    }
+
+    .text-danger {
+        color: #FF0000;
+    }
+
+    .alert-danger {
+        background-color: #FFECEC;
+        border-color: #FF4E4E;
+        color: #FF4E4E;
+    }
+</style>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-header bg-dark text-white">
+                    <h3 class="card-title mb-0">Login</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="mb-2">
+                            <label asp-for="UserName" class="form-label">Username</label>
+                            <input asp-for="UserName" class="form-control" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                        <div class="mb-2">
+                            <label asp-for="Password" class="form-label">Password</label>
+                            <input asp-for="Password" type="password" class="form-control" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100">Login</button>
+                    </form>
+                </div>
+            </div>
+            @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+            {
+                <div class="alert alert-danger mt-2" role="alert">
+                    @Model.ErrorMessage
+                </div>
+            }
+        </div>
+    </div>
+</div>

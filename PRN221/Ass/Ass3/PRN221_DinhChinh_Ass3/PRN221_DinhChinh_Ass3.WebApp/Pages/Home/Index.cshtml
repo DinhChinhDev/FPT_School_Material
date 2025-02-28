@@ -1,0 +1,129 @@
+﻿@page
+@model PRN221_DinhChinh_Ass3.WebApp.Pages.Home.IndexModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Book Catalog</h1>
+
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <form id="searchForm" method="get" class="d-flex align-items-center w-75">
+            @Html.AntiForgeryToken()
+
+            <select id="categoryFilter" name="category" class="form-select mx-2" style="width: 200px;">
+                <option value="">All Categories</option>
+                @foreach (var category in Model.Categories)
+                {
+                    <option value="@category.CategoryId">@category.CategoryName</option>
+                }
+            </select>
+
+            <input type="text" id="searchString" name="searchString" placeholder="Enter book name or category" class="form-control mx-2" />
+
+            <button type="button" id="searchButton" class="btn btn-outline-primary d-flex align-items-center">
+                <i class="bi bi-search me-1"></i> Search
+            </button>
+        </form>
+    </div>
+    <div id="bookTableBody" class="row mt-3 justify-content-center">
+        @await Html.PartialAsync("_BookListPartial", Model.Books)
+    </div>
+@*     <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Book Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="bookTableBody">
+            @await Html.PartialAsync("_BookListPartial", Model.Books)
+        </tbody>
+    </table> *@
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            const _connection = new signalR.HubConnectionBuilder()
+                .withUrl("/bookHub")
+                .build();
+
+            _connection.start().then(function () {
+                console.log("Connected to the SignalR Hub.");
+            }).catch(function (err) {
+                return console.error(err.toString());
+            });
+
+            _connection.on("ReceiveNewBookNotification", function (bookName) {
+                toastr.info("A new book has been added: " + bookName);
+
+                $.ajax({
+                    url: '@Url.Page("Index")',
+                    type: 'GET',
+                    headers: { "X-Requested-With": "XMLHttpRequest" },
+                    success: function (result) {
+                        $('#bookTableBody').html(result);
+                    }
+                });
+            });
+
+            function searchBooks() {
+                let searchString = $('#searchString').val();
+                let categoryId = $('#categoryFilter').val();
+
+                $.ajax({
+                    url: '@Url.Page("Index")',
+                    type: 'GET',
+                    data: { searchString: searchString, categoryId: categoryId },
+                    headers: { "X-Requested-With": "XMLHttpRequest" },
+                    success: function (result) {
+                        $('#bookTableBody').html(result);
+                    }
+                });
+            }
+
+            $('#searchButton').click(function (e) {
+                e.preventDefault();
+                searchBooks();
+            });
+            $('#searchString').on('keypress', function (e) {
+                if (e.which === 13) {
+                    e.preventDefault();
+                    searchBooks();
+                }
+            });
+
+            $('#categoryFilter').change(function () {
+                searchBooks();
+                console.log("called");
+            });
+
+            $(document).on('click', '.place-order-btn', function () {
+                let bookId = $(this).data('id');
+
+                $.ajax({
+                    url: '@Url.Page("Index", "PlaceOrder")',
+                    type: 'POST',
+                    data: { bookId: bookId },
+                    headers: {
+                        'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            toastr.success(response.message);
+                        } else {
+                            toastr.error("Failed to place the order.");
+                        }
+                    },
+                    error: function () {
+                        toastr.error("An error occurred while placing the order.");
+                    }
+                });
+            });
+        });
+    </script>
+}

@@ -1,0 +1,16 @@
+modelBuilder.Entity<Artist>().HasData(
+    new Artist { ArtistId = 1, Name = "Vincent van Gogh", Biography = "A post-impressionist painter known for his vivid colors and emotional depth." },
+    new Artist { ArtistId = 2, Name = "Claude Monet", Biography = "A founder of French Impressionist painting, famous for his landscape and plein-air painting techniques." },
+    new Artist { ArtistId = 3, Name = "Pablo Picasso", Biography = "Spanish painter, sculptor, printmaker, known for co-founding the Cubist movement." }
+);
+
+modelBuilder.Entity<Artwork>().HasData(
+    new Artwork { ArtworkId = 1, Title = "Starry Night", Year = 1889, Medium = "Oil on canvas", ArtistId = 1, ExhibitionId = 1 },
+    new Artwork { ArtworkId = 2, Title = "Water Lilies", Year = 1906, Medium = "Oil on canvas", ArtistId = 2, ExhibitionId = 1 },
+    new Artwork { ArtworkId = 3, Title = "Guernica", Year = 1937, Medium = "Oil on canvas", ArtistId = 3, ExhibitionId = 2 }
+);
+
+modelBuilder.Entity<Exhibition>().HasData(
+    new Exhibition { ExhibitionId = 1, Title = "Impressionist Treasures", StartDate = DateTime.Parse("2023-01-01"), EndDate = DateTime.Parse("2023-06-30"), Description = "An exploration of Impressionist works from Monet and his contemporaries." },
+    new Exhibition { ExhibitionId = 2, Title = "Modernist Movements", StartDate = DateTime.Parse("2023-07-01"), EndDate = DateTime.Parse("2023-12-31"), Description = "A comprehensive look at the Modernist movement, featuring key works by Picasso and others." }
+);

@@ -1,0 +1,48 @@
+﻿@page
+@model PRN221_DinhChinh_Ass3.WebApp.Pages.Books.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+<link rel="stylesheet" href="~/css/StyleSheet1.css">
+<h1>Index</h1>
+
+<p>
+    <a class="btn-action" asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].BookName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Book) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.CategoryName)
+            </td>
+            <td>
+                    <a class="btn-action" class="btn-action" asp-page="./Edit" asp-route-id="@item.BookId">Edit</a> |
+                    <a class="btn-action" asp-page="./Details" asp-route-id="@item.BookId">Details</a> |
+                    <a class="btn-action" asp-page="./Delete" asp-route-id="@item.BookId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

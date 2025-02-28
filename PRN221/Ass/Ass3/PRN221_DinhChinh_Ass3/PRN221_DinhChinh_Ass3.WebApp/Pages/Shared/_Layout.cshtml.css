@@ -1,0 +1,93 @@
+﻿
+:root {
+    --primary-color: #D35400; /* cam đất chủ đạo */
+    --secondary-color: #f0a07e; /* cam nhạt */
+    --text-color: #5A5A5A;
+    --background-color: #FAFAF9;
+    --button-hover-color: #A64600; /* màu hover */
+}
+
+/* Navbar brand */
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: var(--primary-color);
+}
+
+/* Link style */
+a {
+    color: var(--primary-color);
+}
+
+    a:hover {
+        color: var(--button-hover-color);
+    }
+
+/* Button primary styling */
+.btn-primary {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--button-hover-color);
+}
+
+    .btn-primary:hover {
+        background-color: var(--button-hover-color);
+    }
+
+/* Active nav pills styling */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--button-hover-color);
+}
+
+/* Border styles */
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Box shadow */
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1); /* Slightly stronger shadow */
+}
+
+/* Accept policy button */
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+    color: var(--primary-color);
+}
+
+/* Footer styling */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 60px;
+}
+
+/* Dropdown box size */
+.select-dropdown,
+.dropdown-menu {
+    width: 100%; /* Đảm bảo dropdown có kích thước bằng hộp xổ */
+    min-width: auto;
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
+}
+
+/* Dropdown item styling */
+.dropdown-item {
+    color: var(--primary-color);
+}
+
+    .dropdown-item:hover {
+        background-color: var(--secondary-color);
+        color: #fff;
+    }

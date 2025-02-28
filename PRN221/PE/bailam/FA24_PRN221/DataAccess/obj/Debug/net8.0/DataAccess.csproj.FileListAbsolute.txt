@@ -1,0 +1,16 @@
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\bin\Debug\net8.0\appsettings.json
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\bin\Debug\net8.0\Business.dll
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\bin\Debug\net8.0\Business.pdb
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CopyComplete
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll

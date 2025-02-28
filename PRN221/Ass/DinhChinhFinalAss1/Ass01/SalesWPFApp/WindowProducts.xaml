@@ -1,0 +1,54 @@
+﻿<Window x:Class="SalesWPFApp.WindowProducts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Manage Products" Height="500" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <!-- DataGrid to display products -->
+        <DataGrid Name="dgProducts" AutoGenerateColumns="False" HorizontalAlignment="Left" Margin="10,10,10,200" VerticalAlignment="Top" Height="200" Width="760" 
+                  SelectionChanged="DgProducts_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Product ID" Binding="{Binding ProductId}" Width="100" IsReadOnly="True" />
+                <DataGridTextColumn Header="Category ID" Binding="{Binding CategoryId}" Width="100" />
+                <DataGridTextColumn Header="Product Name" Binding="{Binding ProductName}" Width="200" />
+                <DataGridTextColumn Header="Weight" Binding="{Binding Weight}" Width="100" />
+                <DataGridTextColumn Header="Unit Price" Binding="{Binding UnitPrice}" Width="100" />
+                <DataGridTextColumn Header="Units In Stock" Binding="{Binding UnitsInStock}" Width="100" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Labels and input fields for adding/updating products -->
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="10,220,10,10" VerticalAlignment="Top" Width="760">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Product Name:" Width="100"/>
+                <TextBox Name="txtProductName" Width="200"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Category ID:" Width="100"/>
+                <TextBox Name="txtCategoryId" Width="200"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Weight:" Width="100"/>
+                <TextBox Name="txtWeight" Width="200"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Unit Price:" Width="100"/>
+                <TextBox Name="txtUnitPrice" Width="200"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Units In Stock:" Width="100"/>
+                <TextBox Name="txtUnitsInStock" Width="200"/>
+            </StackPanel>
+
+            <!-- Buttons for Add, Update, Delete -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                <Button Name="btnAdd" Content="Add" Width="100" Click="BtnAdd_Click"/>
+                <Button Name="btnUpdate" Content="Update" Width="100" Click="BtnUpdate_Click" Margin="10,0,10,0"/>
+                <Button Name="btnDelete" Content="Delete" Width="100" Click="BtnDelete_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

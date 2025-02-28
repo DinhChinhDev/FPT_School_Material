@@ -1,0 +1,12 @@
+﻿@page
+@model PRN221_DinhChinh_Ass3.WebApp.Pages.Login.UnauthorizedModel
+@{
+    ViewData["Title"] = "Unauthorized";
+}
+
+<div class="container text-center mt-5">
+    <h1 class="display-4 text-danger">Access Denied</h1>
+    <p class="lead">You do not have permission to access this page.</p>
+    <a asp-page="/Login/Login" class="btn btn-primary mt-4">Go to Login Page</a>
+    <a asp-page="/Home/Index" class="btn btn-secondary mt-4">Return to Home</a>
+</div>

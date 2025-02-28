@@ -1,0 +1,95 @@
+BÀI 1:
+Request 1:
+Project Title: Smart Management System
+Project Purpose:
+Purpose: The goal of the Smart System is to develop an efficient and user-friendly project management platform. This system will allow businesses to track, manage, and optimize project workflows. It aims to improve team collaboration, reduce errors, and enhance overall productivity.
+Project Timeframe:
+Timeframe: 12 months, starting from January 2024 and ending in December 2024.
+Customer/Sponsor:
+Customer/Sponsor: FPT Education
+Project Milestones:
+Requirements Gathering (January - February 2024): Collect and document all project requirements.
+System Design (March - April 2024): Develop the system architecture and design.
+Development (May - September 2024): Implement the system features and functionality.
+Testing (October 2024): Conduct testing to ensure the system meets all requirements.
+Deployment (November 2024): Deploy the system to the production environment.
+Training and Support (December 2024): Provide user training and initial support.
+Success Criteria:
++ Successful completion of all project milestones within the scheduled timeframe.
++Positive feedback from users during testing and after deployment.
++Full integration with existing enterprise systems without major issues.
+Other Project Constraints:
++Cost: The project budget is set at $100,000.
++Resources: The project team consists of 5 developers, 2 testers, 1 business analyst, and 1 project manager.
+Request 2:
+1. Project Manager (PM):
++Oversee the entire project to ensure it stays on schedule and within budget.
++Coordinate communication between the project team and stakeholders.
+2. Business Analyst (BA):
++Gather and document project requirements.
++Work with the development team to ensure requirements are clearly understood.
+3. Lead Developer:
++Design and develop the core functionalities of the system.
++Guide the development team and review code to ensure quality.
+4. Tester:
++Create and execute test cases to validate system functionality.
++Identify and report defects to the development team.
+5. System Architect:
++Design the overall system architecture to ensure scalability and reliability.
++Make key technical decisions regarding technology stack and system integration.
+Request 3:
+In-Scope Items:
+Task Management Module: Allows users to create, assign, and track project tasks.
+Reporting Dashboard: Provides visual reports on project progress and performance.
+User Permissions: Manage different levels of access and permissions for users.
+Data Backup: Automatic backup of project data to prevent data loss.
+Mobile Access: Access to the system via a mobile app.
+Out-of-Scope Items:
+Legacy System Data Migration: Migration of old data from legacy systems.
+Custom Integrations: Integration with third-party tools not specified in the requirements.
+Advanced Analytics: Implementation of machine learning-based analytics.
+Customer Support Feature: Direct customer support module within the system.
+Multilingual Support: Support for languages other than English.
+Customization for Clients: Personalized customizations for different clients.
+On-site Deployment: Deploying the system on client’s local servers.
+Extended Warranty: Providing support and maintenance beyond the initial deployment period.
+Custom Branding: Implementing unique branding for each client.
+VR/AR Capabilities: Integration of virtual reality or augmented reality features.
+Request 4
+Activities:
+Requirements Gathering (A)
+System Design (B)
+Development of Core Modules (C)
+Development of User Interface (D)
+Integration Testing (E)
+User Acceptance Testing (F)
+System Deployment (G)
+User Training (H)
+Data Backup Implementation (I)
+Project Closure (J)
+Relationships:
+A → B (FS): System design starts after requirements gathering.
+B → C (FS): Core module development starts after system design.
+C → D (SS): User interface development can start in parallel with core module development.
+C → E (FS): Integration testing begins after core module development.
+E → F (FF): User acceptance testing can finish as soon as integration testing is complete.
+F → G (FS): System deployment starts after user acceptance testing.
+G → H (SS): User training can begin during system deployment.
+H → J (FS): Project closure occurs after user training.
+D → I (FF): Data backup implementation is finalized as soon as the user interface is completed.
+Request 5:
+1. Training Costs:
+Description: Cost for training the development team on new technologies.
+Estimation: 40 man-hours.
+2. Testing Costs:
+Description: Cost of testing tools and environments to ensure quality.
+Estimation: 60 man-hours.
+3. Rework Costs:
+Description: Time spent fixing defects found during testing.
+Estimation: 80 man-hours.
+4. Audit Costs:
+Description: External audit services to ensure compliance with standards.
+Estimation: 20 man-hours.
+5. Documentation Costs:
+Description: Time spent creating detailed user and technical documentation.
+Estimation: 50 man-hours.

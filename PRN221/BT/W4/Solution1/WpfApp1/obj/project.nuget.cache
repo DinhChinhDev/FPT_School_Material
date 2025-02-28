@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZCqEfnc8EovMknTm+kLtFNRmaDGvN6eU8qADTPw1ZQtx2aFh9qbF9nWz8H4B/jqL7ERhgoSMVxQuC190uPTY6A==",
+  "success": true,
+  "projectFilePath": "D:\\Sem7\\PRN221\\BT\\W4\\Solution1\\WpfApp1\\WpfApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

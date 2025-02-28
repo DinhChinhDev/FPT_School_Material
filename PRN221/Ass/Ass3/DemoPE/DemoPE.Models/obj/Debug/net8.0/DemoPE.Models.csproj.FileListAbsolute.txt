@@ -1,0 +1,11 @@
+D:\Sem7\PRN221\Ass\Ass3\DemoPE\DemoPE.Models\bin\Debug\net8.0\DemoPE.Models.deps.json
+D:\Sem7\PRN221\Ass\Ass3\DemoPE\DemoPE.Models\bin\Debug\net8.0\DemoPE.Models.dll
+D:\Sem7\PRN221\Ass\Ass3\DemoPE\DemoPE.Models\bin\Debug\net8.0\DemoPE.Models.pdb
+D:\Sem7\PRN221\Ass\Ass3\DemoPE\DemoPE.Models\obj\Debug\net8.0\DemoPE.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sem7\PRN221\Ass\Ass3\DemoPE\DemoPE.Models\obj\Debug\net8.0\DemoPE.Models.AssemblyInfoInputs.cache
+D:\Sem7\PRN221\Ass\Ass3\DemoPE\DemoPE.Models\obj\Debug\net8.0\DemoPE.Models.AssemblyInfo.cs
+D:\Sem7\PRN221\Ass\Ass3\DemoPE\DemoPE.Models\obj\Debug\net8.0\DemoPE.Models.csproj.CoreCompileInputs.cache
+D:\Sem7\PRN221\Ass\Ass3\DemoPE\DemoPE.Models\obj\Debug\net8.0\DemoPE.Models.dll
+D:\Sem7\PRN221\Ass\Ass3\DemoPE\DemoPE.Models\obj\Debug\net8.0\refint\DemoPE.Models.dll
+D:\Sem7\PRN221\Ass\Ass3\DemoPE\DemoPE.Models\obj\Debug\net8.0\DemoPE.Models.pdb
+D:\Sem7\PRN221\Ass\Ass3\DemoPE\DemoPE.Models\obj\Debug\net8.0\ref\DemoPE.Models.dll

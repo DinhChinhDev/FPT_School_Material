@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PRN221_DinhChinh_Ass3.Model/1.0.0": {
+        "runtime": {
+          "PRN221_DinhChinh_Ass3.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PRN221_DinhChinh_Ass3.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

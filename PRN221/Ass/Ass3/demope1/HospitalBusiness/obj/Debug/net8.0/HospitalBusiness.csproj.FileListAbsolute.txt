@@ -1,0 +1,15 @@
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalBusiness\bin\Debug\net8.0\HospitalBusiness.deps.json
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalBusiness\bin\Debug\net8.0\HospitalBusiness.runtimeconfig.json
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalBusiness\bin\Debug\net8.0\HospitalBusiness.dll
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalBusiness\bin\Debug\net8.0\HospitalBusiness.pdb
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalBusiness\obj\Debug\net8.0\HospitalBusiness.csproj.AssemblyReference.cache
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalBusiness\obj\Debug\net8.0\HospitalBusiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalBusiness\obj\Debug\net8.0\HospitalBusiness.AssemblyInfoInputs.cache
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalBusiness\obj\Debug\net8.0\HospitalBusiness.AssemblyInfo.cs
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalBusiness\obj\Debug\net8.0\HospitalBusiness.csproj.CoreCompileInputs.cache
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalBusiness\obj\Debug\net8.0\HospitalBusiness.dll
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalBusiness\obj\Debug\net8.0\refint\HospitalBusiness.dll
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalBusiness\obj\Debug\net8.0\HospitalBusiness.pdb
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalBusiness\obj\Debug\net8.0\HospitalBusiness.genruntimeconfig.cache
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalBusiness\obj\Debug\net8.0\ref\HospitalBusiness.dll
+D:\Sem7\PRN221\Ass\Ass3\demope1\HospitalBusiness\bin\Debug\net8.0\appsettings.json

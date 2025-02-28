@@ -1,0 +1,32 @@
+﻿<Window x:Class="SalesWPFApp.WindowOrders"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Manage Orders" Height="500" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <!-- DataGrid to display orders -->
+        <DataGrid Name="dgOrders" AutoGenerateColumns="False" HorizontalAlignment="Left" Margin="10,10,10,200" VerticalAlignment="Top" Height="150" Width="760" 
+                  SelectionChanged="DgOrders_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Order ID" Binding="{Binding OrderId}" Width="100" IsReadOnly="True" />
+                <DataGridTextColumn Header="Member ID" Binding="{Binding MemberId}" Width="100" />
+                <DataGridTextColumn Header="Order Date" Binding="{Binding OrderDate}" Width="150" />
+                <DataGridTextColumn Header="Required Date" Binding="{Binding RequiredDate}" Width="150" />
+                <DataGridTextColumn Header="Shipped Date" Binding="{Binding ShippedDate}" Width="150" />
+                <DataGridTextColumn Header="Freight" Binding="{Binding Freight}" Width="100" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Label for order details -->
+        <Label Content="Order Details" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,170,0,0" FontWeight="Bold"/>
+
+        <!-- DataGrid to display order details -->
+        <DataGrid Name="dgOrderDetails" AutoGenerateColumns="False" HorizontalAlignment="Left" Margin="10,200,10,10" VerticalAlignment="Bottom" Height="200" Width="760">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Product ID" Binding="{Binding ProductId}" Width="100" IsReadOnly="True" />
+                <DataGridTextColumn Header="Unit Price" Binding="{Binding UnitPrice}" Width="100" />
+                <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="100" />
+                <DataGridTextColumn Header="Discount" Binding="{Binding Discount}" Width="100" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

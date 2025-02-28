@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\AutomobileSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC8F28A-EE9A-4638-AA89-771D95D41A73}|AutomobileLibrary\\AutomobileLibrary.csproj|d:\\project\\automobilesolution\\automobilelibrary\\dataaccess\\mystockcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC8F28A-EE9A-4638-AA89-771D95D41A73}|AutomobileLibrary\\AutomobileLibrary.csproj|solutionrelative:automobilelibrary\\dataaccess\\mystockcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC8F28A-EE9A-4638-AA89-771D95D41A73}|AutomobileLibrary\\AutomobileLibrary.csproj|d:\\project\\automobilesolution\\automobilelibrary\\dataaccess\\carmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC8F28A-EE9A-4638-AA89-771D95D41A73}|AutomobileLibrary\\AutomobileLibrary.csproj|solutionrelative:automobilelibrary\\dataaccess\\carmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC8F28A-EE9A-4638-AA89-771D95D41A73}|AutomobileLibrary\\AutomobileLibrary.csproj|d:\\project\\automobilesolution\\automobilelibrary\\dataaccess\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC8F28A-EE9A-4638-AA89-771D95D41A73}|AutomobileLibrary\\AutomobileLibrary.csproj|solutionrelative:automobilelibrary\\dataaccess\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC8F28A-EE9A-4638-AA89-771D95D41A73}|AutomobileLibrary\\AutomobileLibrary.csproj|d:\\project\\automobilesolution\\automobilelibrary\\repository\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC8F28A-EE9A-4638-AA89-771D95D41A73}|AutomobileLibrary\\AutomobileLibrary.csproj|solutionrelative:automobilelibrary\\repository\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC8F28A-EE9A-4638-AA89-771D95D41A73}|AutomobileLibrary\\AutomobileLibrary.csproj|d:\\project\\automobilesolution\\automobilelibrary\\repository\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC8F28A-EE9A-4638-AA89-771D95D41A73}|AutomobileLibrary\\AutomobileLibrary.csproj|solutionrelative:automobilelibrary\\repository\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Car.cs",
+              "DocumentMoniker": "D:\\Project\\AutomobileSolution\\AutomobileLibrary\\DataAccess\\Car.cs",
+              "RelativeDocumentMoniker": "AutomobileLibrary\\DataAccess\\Car.cs",
+              "ToolTip": "D:\\Project\\AutomobileSolution\\AutomobileLibrary\\DataAccess\\Car.cs",
+              "RelativeToolTip": "AutomobileLibrary\\DataAccess\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T08:04:19.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyStockContext.cs",
+              "DocumentMoniker": "D:\\Project\\AutomobileSolution\\AutomobileLibrary\\DataAccess\\MyStockContext.cs",
+              "RelativeDocumentMoniker": "AutomobileLibrary\\DataAccess\\MyStockContext.cs",
+              "ToolTip": "D:\\Project\\AutomobileSolution\\AutomobileLibrary\\DataAccess\\MyStockContext.cs",
+              "RelativeToolTip": "AutomobileLibrary\\DataAccess\\MyStockContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T08:03:02.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarRepository.cs",
+              "DocumentMoniker": "D:\\Project\\AutomobileSolution\\AutomobileLibrary\\Repository\\CarRepository.cs",
+              "RelativeDocumentMoniker": "AutomobileLibrary\\Repository\\CarRepository.cs",
+              "ToolTip": "D:\\Project\\AutomobileSolution\\AutomobileLibrary\\Repository\\CarRepository.cs",
+              "RelativeToolTip": "AutomobileLibrary\\Repository\\CarRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T08:01:42.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICarRepository.cs",
+              "DocumentMoniker": "D:\\Project\\AutomobileSolution\\AutomobileLibrary\\Repository\\ICarRepository.cs",
+              "RelativeDocumentMoniker": "AutomobileLibrary\\Repository\\ICarRepository.cs",
+              "ToolTip": "D:\\Project\\AutomobileSolution\\AutomobileLibrary\\Repository\\ICarRepository.cs",
+              "RelativeToolTip": "AutomobileLibrary\\Repository\\ICarRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T08:01:29.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarManagement.cs",
+              "DocumentMoniker": "D:\\Project\\AutomobileSolution\\AutomobileLibrary\\DataAccess\\CarManagement.cs",
+              "RelativeDocumentMoniker": "AutomobileLibrary\\DataAccess\\CarManagement.cs",
+              "ToolTip": "D:\\Project\\AutomobileSolution\\AutomobileLibrary\\DataAccess\\CarManagement.cs",
+              "RelativeToolTip": "AutomobileLibrary\\DataAccess\\CarManagement.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwGsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:47:33.837Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1498,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

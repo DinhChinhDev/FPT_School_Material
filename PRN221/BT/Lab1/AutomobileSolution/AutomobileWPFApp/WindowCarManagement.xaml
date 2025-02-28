@@ -1,0 +1,63 @@
+﻿<Window x:Class="AutomobileWPFApp.WindowCarManagement" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:local="clr-namespace:AutomobileWPFApp" 
+        mc:Ignorable="d" 
+        Title="Car Management" Width="780"  
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <DockPanel VerticalAlignment="Top" Margin="10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <!--StackPanel for Label and TextBox controls-->
+                <StackPanel Background="LightBlue" Orientation="Vertical" HorizontalAlignment="Left" Width="400"
+                            DataContext="{Binding ElementName=lvCars, Path=SelectedItem}">
+                    <Label Name="lbTitle" Foreground="Red" FontWeight="DemiBold" FontSize="20" Content="Car Information" />
+
+                    <Label Name="lbCarId" Content="Car Id"/>
+                    <TextBox Name="txtCarId" HorizontalAlignment="Stretch" Height="25" Text="{Binding Path=CarId, Mode=OneWay}" />
+
+                    <Label Name="lbCarName" Content="Car Name" />
+                    <TextBox Name="txtCarName" HorizontalAlignment="Stretch" Height="25" Text="{Binding Path=CarName, Mode=OneWay}" />
+
+                    <Label Name="lbManufacturer" Content="Manufacturer" />
+                    <TextBox Name="txtManufacturer" HorizontalAlignment="Stretch" Height="25" Text="{Binding Path=Manufacturer, Mode=OneWay}" />
+
+                    <Label Name="lbPrice" Content="Price" />
+                    <TextBox Name="txtPrice" HorizontalAlignment="Stretch" Height="25" Text="{Binding Path=Price, StringFormat={}{0:N3}, Mode=OneWay}" />
+
+                    <Label Name="lbReleasedYear" Content="ReleasedYear" />
+                    <TextBox Name="txtReleasedYear" HorizontalAlignment="Stretch" Height="25" Text="{Binding Path=ReleasedYear, Mode=OneWay}" />
+                </StackPanel>
+                <!--StackPanel for Button controls-->
+                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Button x:Name="btnLoad" Margin="10" Width="80" Content="Load" Click="btnLoad_Click"/>
+                    <Button x:Name="btnInsert" Margin="10" Width="80" Content="Insert" Click="btnInsert_Click"/>
+                    <Button x:Name="btnUpdate" Margin="10" Width="80" Content="Update" Click="btnUpdate_Click"/>
+                    <Button x:Name="btnDelete" Margin="10" Width="80" Content="Delete" Click="btnDelete_Click"/>
+                </StackPanel>
+                <!-- ListView control-->
+                <ListView Grid.Row="2" Name="lvCars" Width="Auto" Height="Auto">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Car ID" Width="100" DisplayMemberBinding="{Binding Path=CarId}"/>
+                            <GridViewColumn Header="Car Name" Width="200" DisplayMemberBinding="{Binding Path=CarName}"/>
+                            <GridViewColumn Header="Manufacturer" Width="200" DisplayMemberBinding="{Binding Path=Manufacturer}"/>
+                            <GridViewColumn Header="Price" Width="100" DisplayMemberBinding="{Binding Path=Price, StringFormat={}{0:N3}}"/>
+                            <GridViewColumn Header="ReleasedYear" Width="100" DisplayMemberBinding="{Binding Path=ReleasedYear}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <!-- Button control-->
+                <Button Grid.Row="3" x:Name="btnClose" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="80" Content="Close" Click="btnClose_Click" />
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Window>

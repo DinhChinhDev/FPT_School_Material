@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Major_7\\PRN221\\Assignment\\Ass01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC097174-98F1-43BD-8517-6ABCD0506469}|DataAccess\\DataAccess.csproj|d:\\major_7\\prn221\\assignment\\ass01\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC097174-98F1-43BD-8517-6ABCD0506469}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC098D2-AB52-405C-850C-903B4492FF7A}|SalesWPFApp\\SalesWPFApp.csproj|d:\\major_7\\prn221\\assignment\\ass01\\saleswpfapp\\mysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC098D2-AB52-405C-850C-903B4492FF7A}|SalesWPFApp\\SalesWPFApp.csproj|solutionrelative:saleswpfapp\\mysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC098D2-AB52-405C-850C-903B4492FF7A}|SalesWPFApp\\SalesWPFApp.csproj|d:\\major_7\\prn221\\assignment\\ass01\\saleswpfapp\\windowmembers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3BC098D2-AB52-405C-850C-903B4492FF7A}|SalesWPFApp\\SalesWPFApp.csproj|solutionrelative:saleswpfapp\\windowmembers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC098D2-AB52-405C-850C-903B4492FF7A}|SalesWPFApp\\SalesWPFApp.csproj|d:\\major_7\\prn221\\assignment\\ass01\\saleswpfapp\\windowmembers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC098D2-AB52-405C-850C-903B4492FF7A}|SalesWPFApp\\SalesWPFApp.csproj|solutionrelative:saleswpfapp\\windowmembers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC098D2-AB52-405C-850C-903B4492FF7A}|SalesWPFApp\\SalesWPFApp.csproj|d:\\major_7\\prn221\\assignment\\ass01\\saleswpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3BC098D2-AB52-405C-850C-903B4492FF7A}|SalesWPFApp\\SalesWPFApp.csproj|solutionrelative:saleswpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC098D2-AB52-405C-850C-903B4492FF7A}|SalesWPFApp\\SalesWPFApp.csproj|d:\\major_7\\prn221\\assignment\\ass01\\saleswpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC098D2-AB52-405C-850C-903B4492FF7A}|SalesWPFApp\\SalesWPFApp.csproj|solutionrelative:saleswpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC098D2-AB52-405C-850C-903B4492FF7A}|SalesWPFApp\\SalesWPFApp.csproj|d:\\major_7\\prn221\\assignment\\ass01\\saleswpfapp\\windowlogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC098D2-AB52-405C-850C-903B4492FF7A}|SalesWPFApp\\SalesWPFApp.csproj|solutionrelative:saleswpfapp\\windowlogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Major_7\\PRN221\\Assignment\\Ass01\\DataAccess\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\AppDbContext.cs",
+              "ToolTip": "D:\\Major_7\\PRN221\\Assignment\\Ass01\\DataAccess\\AppDbContext.cs",
+              "RelativeToolTip": "DataAccess\\AppDbContext.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvzoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:37:14.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WindowMembers.xaml",
+              "DocumentMoniker": "D:\\Major_7\\PRN221\\Assignment\\Ass01\\SalesWPFApp\\WindowMembers.xaml",
+              "RelativeDocumentMoniker": "SalesWPFApp\\WindowMembers.xaml",
+              "ToolTip": "D:\\Major_7\\PRN221\\Assignment\\Ass01\\SalesWPFApp\\WindowMembers.xaml",
+              "RelativeToolTip": "SalesWPFApp\\WindowMembers.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-14T04:07:13.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MySession.cs",
+              "DocumentMoniker": "D:\\Major_7\\PRN221\\Assignment\\Ass01\\SalesWPFApp\\MySession.cs",
+              "RelativeDocumentMoniker": "SalesWPFApp\\MySession.cs",
+              "ToolTip": "D:\\Major_7\\PRN221\\Assignment\\Ass01\\SalesWPFApp\\MySession.cs",
+              "RelativeToolTip": "SalesWPFApp\\MySession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T03:16:10.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WindowLogin.xaml.cs",
+              "DocumentMoniker": "D:\\Major_7\\PRN221\\Assignment\\Ass01\\SalesWPFApp\\WindowLogin.xaml.cs",
+              "RelativeDocumentMoniker": "SalesWPFApp\\WindowLogin.xaml.cs",
+              "ToolTip": "D:\\Major_7\\PRN221\\Assignment\\Ass01\\SalesWPFApp\\WindowLogin.xaml.cs",
+              "RelativeToolTip": "SalesWPFApp\\WindowLogin.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wB8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T03:15:30.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WindowMembers.xaml.cs",
+              "DocumentMoniker": "D:\\Major_7\\PRN221\\Assignment\\Ass01\\SalesWPFApp\\WindowMembers.xaml.cs",
+              "RelativeDocumentMoniker": "SalesWPFApp\\WindowMembers.xaml.cs",
+              "ToolTip": "D:\\Major_7\\PRN221\\Assignment\\Ass01\\SalesWPFApp\\WindowMembers.xaml.cs",
+              "RelativeToolTip": "SalesWPFApp\\WindowMembers.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T02:59:08.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Major_7\\PRN221\\Assignment\\Ass01\\SalesWPFApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SalesWPFApp\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Major_7\\PRN221\\Assignment\\Ass01\\SalesWPFApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SalesWPFApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAUwHMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T02:57:40Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Major_7\\PRN221\\Assignment\\Ass01\\SalesWPFApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SalesWPFApp\\MainWindow.xaml",
+              "ToolTip": "D:\\Major_7\\PRN221\\Assignment\\Ass01\\SalesWPFApp\\MainWindow.xaml",
+              "RelativeToolTip": "SalesWPFApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-13T13:36:33.927Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

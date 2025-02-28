@@ -1,0 +1,49 @@
+﻿@page
+@model GalleryWebApp.Pages.Artworks.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Artwork</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Artwork.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Artwork.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Artwork.Year)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Artwork.Year)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Artwork.Medium)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Artwork.Medium)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Artwork.Artist)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Artwork.Artist.Biography)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Artwork.Exhibition)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Artwork.Exhibition.ExhibitionId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Artwork.ArtworkId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

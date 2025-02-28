@@ -1,0 +1,15 @@
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\bin\Debug\net8.0\appsettings.json
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\bin\Debug\net8.0\Business.deps.json
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\bin\Debug\net8.0\Business.runtimeconfig.json
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\bin\Debug\net8.0\Business.dll
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\bin\Debug\net8.0\Business.pdb
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\Business.dll
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\refint\Business.dll
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\Business.pdb
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\Business.genruntimeconfig.cache
+D:\Sem7\PRN221\PE\bailam\FA24_PRN221\Business\obj\Debug\net8.0\ref\Business.dll

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "OqhXFc0+lBO6Oa8Ai83XmRDWVC8Q1RgC3wenl7aUQikMU7haceBsFGhUrjEp7QN67Vr2N+RIII2wCGcDjHCshw==",
+  "success": true,
+  "projectFilePath": "D:\\Sem7\\PRN221\\BT\\W4\\Solution1\\Asynchronous\\Asynchronous.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

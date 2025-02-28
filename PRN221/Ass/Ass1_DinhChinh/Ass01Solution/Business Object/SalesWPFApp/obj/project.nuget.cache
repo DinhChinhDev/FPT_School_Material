@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "rJTkSzGGkQx+qV3Rb78aS2PVt7adzdkaRJpAIhKvasw96PHKBS8BMZuikv57raR0YmqtEZK8WRJxUZKYSVMNoA==",
+  "success": true,
+  "projectFilePath": "D:\\Sem7\\PRN221\\Ass\\Ass1_DinhChinh\\Ass01Solution\\Business Object\\SalesWPFApp\\SalesWPFApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

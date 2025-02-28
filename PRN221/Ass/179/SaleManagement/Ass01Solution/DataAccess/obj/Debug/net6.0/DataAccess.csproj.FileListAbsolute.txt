@@ -1,0 +1,12 @@
+D:\Ky_7\PRN221\Lap\Lap1\Assignment_01\Ass01Solution\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\Ky_7\PRN221\Lap\Lap1\Assignment_01\Ass01Solution\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\Ky_7\PRN221\Lap\Lap1\Assignment_01\Ass01Solution\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\Ky_7\PRN221\Lap\Lap1\Assignment_01\Ass01Solution\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\Ky_7\PRN221\Lap\Lap1\Assignment_01\Ass01Solution\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ky_7\PRN221\Lap\Lap1\Assignment_01\Ass01Solution\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\Ky_7\PRN221\Lap\Lap1\Assignment_01\Ass01Solution\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\Ky_7\PRN221\Lap\Lap1\Assignment_01\Ass01Solution\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Ky_7\PRN221\Lap\Lap1\Assignment_01\Ass01Solution\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\Ky_7\PRN221\Lap\Lap1\Assignment_01\Ass01Solution\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+D:\Ky_7\PRN221\Lap\Lap1\Assignment_01\Ass01Solution\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\Ky_7\PRN221\Lap\Lap1\Assignment_01\Ass01Solution\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

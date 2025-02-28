@@ -1,0 +1,45 @@
+﻿<Window x:Class="SalesWPFApp.WindowMembers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Manage Members" Height="500" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <!-- DataGrid to display the list of members -->
+        <DataGrid Name="dgMembers" AutoGenerateColumns="False" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="181" Width="760" 
+                  SelectionChanged="DgMembers_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding MemberId}" Width="50" IsReadOnly="True" />
+                <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="200" />
+                <DataGridTextColumn Header="Company" Binding="{Binding CompanyName}" Width="150" />
+                <DataGridTextColumn Header="City" Binding="{Binding City}" Width="100" />
+                <DataGridTextColumn Header="Country" Binding="{Binding Country}" Width="100" />
+                <DataGridTextColumn Header="Password" Binding="{Binding Password}" Width="150" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Member Information Form for Add/Update -->
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="12,206,0,0" VerticalAlignment="Top" Height="225">
+            <Label Content="Email:"/>
+            <TextBox Name="txtEmail" Width="300"/>
+
+            <Label Content="Company Name:"/>
+            <TextBox Name="txtCompanyName" Width="300"/>
+
+            <Label Content="City:"/>
+            <TextBox Name="txtCity" Width="300"/>
+
+            <Label Content="Country:"/>
+            <TextBox Name="txtCountry" Width="300"/>
+
+            <Label Content="Password:"/>
+            <PasswordBox Name="txtPassword" Width="300"/>
+        </StackPanel>
+
+        <!-- Buttons for Member Operations -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="340,0,0,0" Height="30">
+            <Button Content="Add Member" Width="100" Click="BtnAddMember_Click"/>
+            <Button Content="Update Member" Width="100" Margin="10,0,0,0" Click="BtnUpdateMember_Click"/>
+            <Button Content="Delete Member" Width="100" Margin="10,0,0,0" Click="BtnDeleteMember_Click"/>
+            <Button Content="Clear" Width="100" Margin="10,0,0,0" Click="BtnClear_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

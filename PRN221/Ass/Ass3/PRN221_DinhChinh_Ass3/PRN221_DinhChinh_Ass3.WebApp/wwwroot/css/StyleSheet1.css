@@ -1,0 +1,82 @@
+﻿:root {
+    --primary-color: #D35400; /* Màu cam đất chủ đạo */
+    --secondary-color: #f0a07e; /* Màu cam nhạt */
+    --text-color: #5A5A5A; /* Màu chữ */
+    --background-color: #FAFAF9; /* Nền sáng */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse; /* Xóa khoảng cách giữa các ô */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng cho bảng */
+}
+
+    .table th, .table td {
+        padding: 10px; /* Thêm padding cho các ô */
+        text-align: left; /* Căn trái cho văn bản */
+        border-bottom: 1px solid #e0e0e0; /* Đường viền dưới cho các ô */
+    }
+
+    .table th {
+        background-color: var(--primary-color); /* Màu nền cho tiêu đề bảng */
+        color: white; /* Màu chữ cho tiêu đề */
+        font-weight: bold; /* Đậm cho tiêu đề */
+    }
+
+    .table tr:hover {
+        background-color: var(--secondary-color); /* Đổi màu khi hover trên hàng */
+    }
+
+    .table a {
+        color: var(--primary-color);
+        text-decoration: none; /* Bỏ gạch chân */
+        font-weight: bold; /* Làm đậm liên kết */
+    }
+
+        .table a:hover {
+            text-decoration: underline; /* Gạch chân khi hover */
+        }
+
+.btn-create {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none; /* Bỏ gạch chân */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu khi hover */
+}
+
+    .btn-create:hover {
+        background-color: var(--secondary-color); /* Đổi màu khi hover */
+    }
+
+/* Custom styles for action buttons in the table */
+.btn-action {
+    background-color: #141A46; /* Màu xanh dương cho nút */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px; /* Bo góc cho nút */
+    text-decoration: none; /* Bỏ gạch chân */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu khi hover */
+    margin: 0 2px; /* Khoảng cách giữa các nút */
+    font-weight: bold; /* Làm đậm chữ */
+}
+
+    .btn-action:hover {
+        background-color: #141A46; /* Đổi màu khi hover */
+    }

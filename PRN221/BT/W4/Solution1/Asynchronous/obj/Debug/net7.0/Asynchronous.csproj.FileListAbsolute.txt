@@ -1,0 +1,14 @@
+D:\Sem7\PRN221\BT\W4\Solution1\Asynchronous\bin\Debug\net7.0\Asynchronous.exe
+D:\Sem7\PRN221\BT\W4\Solution1\Asynchronous\bin\Debug\net7.0\Asynchronous.deps.json
+D:\Sem7\PRN221\BT\W4\Solution1\Asynchronous\bin\Debug\net7.0\Asynchronous.runtimeconfig.json
+D:\Sem7\PRN221\BT\W4\Solution1\Asynchronous\bin\Debug\net7.0\Asynchronous.dll
+D:\Sem7\PRN221\BT\W4\Solution1\Asynchronous\bin\Debug\net7.0\Asynchronous.pdb
+D:\Sem7\PRN221\BT\W4\Solution1\Asynchronous\obj\Debug\net7.0\Asynchronous.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sem7\PRN221\BT\W4\Solution1\Asynchronous\obj\Debug\net7.0\Asynchronous.AssemblyInfoInputs.cache
+D:\Sem7\PRN221\BT\W4\Solution1\Asynchronous\obj\Debug\net7.0\Asynchronous.AssemblyInfo.cs
+D:\Sem7\PRN221\BT\W4\Solution1\Asynchronous\obj\Debug\net7.0\Asynchronous.csproj.CoreCompileInputs.cache
+D:\Sem7\PRN221\BT\W4\Solution1\Asynchronous\obj\Debug\net7.0\Asynchronous.dll
+D:\Sem7\PRN221\BT\W4\Solution1\Asynchronous\obj\Debug\net7.0\refint\Asynchronous.dll
+D:\Sem7\PRN221\BT\W4\Solution1\Asynchronous\obj\Debug\net7.0\Asynchronous.pdb
+D:\Sem7\PRN221\BT\W4\Solution1\Asynchronous\obj\Debug\net7.0\Asynchronous.genruntimeconfig.cache
+D:\Sem7\PRN221\BT\W4\Solution1\Asynchronous\obj\Debug\net7.0\ref\Asynchronous.dll

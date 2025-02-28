@@ -1,0 +1,159 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PRN221_DinhChinh_Ass3.WebApp
+build_property.RootNamespace = PRN221_DinhChinh_Ass3.WebApp
+build_property.ProjectDir = D:\Sem7\PRN221\Ass\Ass3\PRN221_DinhChinh_Ass3\PRN221_DinhChinh_Ass3.WebApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Sem7\PRN221\Ass\Ass3\PRN221_DinhChinh_Ass3\PRN221_DinhChinh_Ass3.WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/AppUsers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/AppUsers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/AppUsers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/AppUsers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/AppUsers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Books/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Books/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Books/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Books/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Books/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Home/IndexUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxJbmRleFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Home/_BookListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxfQm9va0xpc3RQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Login/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Login/Unauthorized.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cVW5hdXRob3JpemVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Ships/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hpcHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Ships/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hpcHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Ships/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hpcHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Ships/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hpcHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Ships/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hpcHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sem7/PRN221/Ass/Ass3/PRN221_DinhChinh_Ass3/PRN221_DinhChinh_Ass3.WebApp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-okn8fay9bz

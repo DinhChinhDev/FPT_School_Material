@@ -1,0 +1,23 @@
+﻿@model IEnumerable<PRN221_DinhChinh_Ass3.Model.Book>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-3">
+            <div class="card h-100">
+                <!-- Add Bootstrap shadow class here -->
+                @* <img src="https://edit.org/images/cat/book-covers-big-2019101610.jpg" class="card-img-top" alt="@item.BookName" /> *@
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                
+                <ul class="list-group list-group-flush">
+                        <li class="list-group-item">@Html.DisplayFor(modelItem => item.BookName)</li>
+                        <li class="list-group-item">Price: @Html.DisplayFor(modelItem => item.Price)</li>
+                        <li class="list-group-item">Category: @Html.DisplayFor(modelItem => item.Category.CategoryName)</li>
+                </ul>
+                    <button class="btn btn-primary place-order-btn" data-id="@item.BookId">Order Now</button>
+                </div>
+            </div>
+        </div>
+    }
+</div>

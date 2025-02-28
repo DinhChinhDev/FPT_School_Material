@@ -1,0 +1,23 @@
+//{
+//  "Logging": {
+//    "LogLevel": {
+//      "Default": "Information",
+//      "Microsoft.AspNetCore": "Warning"
+//    }
+//  },
+//  "AllowedHosts": "*",
+//  "ConnectionStrings": { "MyStoreDB": "server=(local);uid=sa;pwd=chinh123;database=DinhChinh_FStore;Encrypt=false;TrustServerCertificate=true;Trusted_Connection=SSPI;Encrypt=false;" }
+
+//}
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "MyStoreDB": "server=(local);database=DinhChinh_FStore;Trusted_Connection=true;Encrypt=false;TrustServerCertificate=true;"
+  }
+}
