@@ -1,0 +1,7 @@
+D:\Nam3\Semester 5\SWT\L1\L1\bin\Debug\L1.exe.config
+D:\Nam3\Semester 5\SWT\L1\L1\bin\Debug\L1.exe
+D:\Nam3\Semester 5\SWT\L1\L1\bin\Debug\L1.pdb
+D:\Nam3\Semester 5\SWT\L1\L1\obj\Debug\L1.csproj.AssemblyReference.cache
+D:\Nam3\Semester 5\SWT\L1\L1\obj\Debug\L1.csproj.CoreCompileInputs.cache
+D:\Nam3\Semester 5\SWT\L1\L1\obj\Debug\L1.exe
+D:\Nam3\Semester 5\SWT\L1\L1\obj\Debug\L1.pdb

@@ -1,0 +1,28 @@
+C:\Users\Dell\Desktop\C#\Lab4\Lab4\bin\Debug\net8.0\Lab4.exe
+C:\Users\Dell\Desktop\C#\Lab4\Lab4\bin\Debug\net8.0\Lab4.deps.json
+C:\Users\Dell\Desktop\C#\Lab4\Lab4\bin\Debug\net8.0\Lab4.runtimeconfig.json
+C:\Users\Dell\Desktop\C#\Lab4\Lab4\bin\Debug\net8.0\Lab4.dll
+C:\Users\Dell\Desktop\C#\Lab4\Lab4\bin\Debug\net8.0\Lab4.pdb
+C:\Users\Dell\Desktop\C#\Lab4\Lab4\obj\Debug\net8.0\Lab4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\C#\Lab4\Lab4\obj\Debug\net8.0\Lab4.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\C#\Lab4\Lab4\obj\Debug\net8.0\Lab4.AssemblyInfo.cs
+C:\Users\Dell\Desktop\C#\Lab4\Lab4\obj\Debug\net8.0\Lab4.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\C#\Lab4\Lab4\obj\Debug\net8.0\Lab4.dll
+C:\Users\Dell\Desktop\C#\Lab4\Lab4\obj\Debug\net8.0\refint\Lab4.dll
+C:\Users\Dell\Desktop\C#\Lab4\Lab4\obj\Debug\net8.0\Lab4.pdb
+C:\Users\Dell\Desktop\C#\Lab4\Lab4\obj\Debug\net8.0\Lab4.genruntimeconfig.cache
+C:\Users\Dell\Desktop\C#\Lab4\Lab4\obj\Debug\net8.0\ref\Lab4.dll
+D:\Nam3\Semester 5\SWT\Lab4\Lab4\Lab4\bin\Debug\net8.0\Lab4.exe
+D:\Nam3\Semester 5\SWT\Lab4\Lab4\Lab4\bin\Debug\net8.0\Lab4.deps.json
+D:\Nam3\Semester 5\SWT\Lab4\Lab4\Lab4\bin\Debug\net8.0\Lab4.runtimeconfig.json
+D:\Nam3\Semester 5\SWT\Lab4\Lab4\Lab4\bin\Debug\net8.0\Lab4.dll
+D:\Nam3\Semester 5\SWT\Lab4\Lab4\Lab4\bin\Debug\net8.0\Lab4.pdb
+D:\Nam3\Semester 5\SWT\Lab4\Lab4\Lab4\obj\Debug\net8.0\Lab4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nam3\Semester 5\SWT\Lab4\Lab4\Lab4\obj\Debug\net8.0\Lab4.AssemblyInfoInputs.cache
+D:\Nam3\Semester 5\SWT\Lab4\Lab4\Lab4\obj\Debug\net8.0\Lab4.AssemblyInfo.cs
+D:\Nam3\Semester 5\SWT\Lab4\Lab4\Lab4\obj\Debug\net8.0\Lab4.csproj.CoreCompileInputs.cache
+D:\Nam3\Semester 5\SWT\Lab4\Lab4\Lab4\obj\Debug\net8.0\Lab4.dll
+D:\Nam3\Semester 5\SWT\Lab4\Lab4\Lab4\obj\Debug\net8.0\refint\Lab4.dll
+D:\Nam3\Semester 5\SWT\Lab4\Lab4\Lab4\obj\Debug\net8.0\Lab4.pdb
+D:\Nam3\Semester 5\SWT\Lab4\Lab4\Lab4\obj\Debug\net8.0\Lab4.genruntimeconfig.cache
+D:\Nam3\Semester 5\SWT\Lab4\Lab4\Lab4\obj\Debug\net8.0\ref\Lab4.dll
